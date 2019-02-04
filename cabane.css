@@ -1,0 +1,374 @@
+*{margin:0 ;
+    padding:0 ;
+  
+      }
+html,body{height:100%;}
+
+h1,h2,h3,h4,h5,h6,p{color:#000000;
+    padding:0 ;
+  
+      }
+
+
+.col-sm-4, .col-sm-8, .col-sm-10 {color:red;
+         /*border-style:solid;
+         border-width:4px;
+  */border:green solid 4px;
+         }
+
+
+
+/*.sect{
+    {background-size:cover;
+       background-repeat:no-repeat;
+       height:100%;
+       width:100%;
+       background-attachment: fixed;
+       
+        }
+
+
+      }
+
+
+.hd {background-image:url(images/cabhd3.jpg);
+    
+  }     
+  */  
+
+/*########### DEBUT HEADER*/
+
+
+.logo img{max-width:140px;
+          }
+
+
+
+.hd img{width:100%;
+        height:600px;
+         border-style:solid;
+         border-width:4px;
+         margin-top:5px;
+         }
+
+
+
+.hd:hover img{
+                       transform:scale(0.9);
+                       transition:all 1s ease-in;
+                       filter:brightness(1);overflow:hidden;
+                    }
+
+
+
+
+.logo {background-color:
+#00FFFF;
+         
+        
+}
+.logo li{float: right;
+        margin-right:30px;
+        margin-top:30px;
+        padding:5px;
+        list-style-type: none;
+        font-size:20px;
+         background-color:blue;
+         color:white;
+         border-radius:6px;
+         text-decoration-color:none;
+         font-family:cursive;
+         
+        
+}
+
+
+.listes{margin-right:400px;}
+
+
+.logo h1{float:right;
+         margin-top:70px;
+         margin-right:20px;
+         border-style:solid;
+         padding:5px;
+         background-color:
+         #FF4500;
+         border-radius: 7px 7px;
+         position: fixed;
+         margin-left:1000px;
+        
+}
+
+
+.logo h3{float:right;
+         margin-top:20px;
+         margin-right:10px;
+         border-style:solid;
+         padding:5px;
+         background-color:
+         #FF4500;
+         border-radius: 7px 7px;
+         position: fixed;
+         margin-left:1100px;
+        
+}
+
+
+
+
+
+.logo h1:hover{color:red; 
+            background-color:yellow;
+            padding:7px;
+}
+
+
+
+
+.logo a:visited{
+         color:white;
+         
+        
+}
+
+
+
+.logo a{text-decoration-line: none;
+         color:white;
+         
+        
+}
+
+.logo a:hover{color:red; 
+            background-color:yellow;
+            padding:7px;
+         
+         
+        
+}
+/*.listes {margin-left:40px;
+         position:absolute;
+        
+}
+*/
+
+
+
+
+
+
+
+
+/*###################### DEBUT CONTENUS BODY#######*/
+
+.infosbody{column-count: 2;
+            -webkit-column-count:2;
+             -moz-column-count:2;
+                margin-left:100px;
+                margin-right:80px;
+                margin-top::200px;}
+
+
+.infosbody img{width:400px;
+               height:300px;
+              margin-bottom:20px;
+              border-style: solid;
+            border-radius:3px;}
+
+.infosbody h1{font-size:20px;
+              margin-top:20px;
+                margin-bottom:20px;}
+
+.infosbody p{max-width:420px;}
+
+
+.infosbodyh:hover {
+                       transform:scale(1.2);
+                       transition:all 1s ease-in;
+                       filter:brightness(1);overflow:hidden;
+            }
+.dodo{top:10px;}
+
+/*####Banner milieu partenaires*/
+
+
+
+.partenaires img{border-style:solid;
+                 border-color:red;
+                 border-width:2px;
+                 border-width:2px;
+                 border-radius:12px;
+                 box-shadow:200px;
+                 width:100px;
+                 height:80px;
+                 margin-left:190px;
+    
+                     }
+
+
+.partenaires{ background-color:#00FF00;
+              background-attachment:fixed;
+              margin-top:80px;
+        
+            }
+
+.partenaires h1{ text-align: center;
+                 margin-bottom:40px;
+                 font-family:cursive;
+        
+            }
+
+
+.partenaires :hover img{
+                       transform:scale(1.7);
+                       transition:all 1s ease-in;
+                       filter:brightness(1);overflow:hidden;
+            }
+
+/*#######DEBU FOOOTER*/
+
+
+
+.pied{}
+
+
+.articles{position:absolute;
+          margin-left:500px;
+        top:10px;}
+
+
+.noscabanes{position: relative;
+            margin-left:40px;
+            top:125px;}
+
+
+
+.avis{position:relative;
+       margin-left:400px;
+        top:10px;}
+
+
+.pied{background-color:black;color:white;
+      margin-top:20px;
+       height:400px;}
+
+.pied h4{color:white;font-size:20px;
+            margin-bottom:20px;}
+
+
+.paiement img{width:60px;
+              height:40px;
+               padding:4px;
+                }
+
+
+.paiement {margin-left:460px;
+           margin-top:10px;
+                }
+
+
+
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+#back2Top:hover {
+    background-color:red;
+    color: #000;
+}
+
+
+
+
+
+
+/*snow*/
+
+
+
+
+
+
+
+
+
+/*snow
+
+
+
+.snow1{
+background:url(images/snow.png);
+               width:10px;
+               height:10px;
+               background-repeat: repeat;
+               position: absolute;
+               top:0;
+               left:0;
+               background-origin:10px;
+
+}
+.snow1 mg{width:20px;
+           height:10px;
+
+
+}
+
+*/
+
+body{width:100%;height:100%;
+     background-color:
+
+
+
+
+#FFFAFA; 
+    /*
+      -o-background-color:#483D8B;
+      -webkit-background-color:#483D8B;
+      -moz-background-color:#483D8B;
+*/
+
+
+}
+
+.flake{
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    position:absolute;
+}
+
+
+/*RESEAUX SOCIAUX*/
+
+.rs{float:right;
+     margin-top:400px;}
+.rs img{max-width:40px;
+        padding:15px;
+         }
+
+
+
+
+
+
+
